@@ -1,10 +1,10 @@
 name: 'Terraform'
 
 on:
-  push:
-    branches:
-      - 'main'
-      - 'terraform_destroy'
+  #push:
+   # branches:
+      #- 'main'
+      #- 'terraform_destroy'
   #push:
   #  branches: ["tf-modules"]
 
