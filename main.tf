@@ -4,6 +4,4 @@ resource "aws_instance" "foo" {
   instance_type = "t2.micro"
 }
 
-resource "aws_sns_topic" "user_updates" {
-  name = "user-updates-topic"
-}
+
