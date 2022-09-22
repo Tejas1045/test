@@ -4,8 +4,6 @@ resource "aws_instance" "foo" {
   instance_type = "t2.micro"
 }
 
-resource "aws_sns_topic" "top" {
-    name = "Sns-topic"
-    fifo_topic = true
-    content_based_deduplication = true
+resource "aws_sns_topic" "user_updates" {
+  name = "user-updates-topic"
 }
