@@ -4,7 +4,7 @@ on:
  push:
     branches:
       - 'main'
-      #- 'terraform_destroy'
+      - 'terraform_destroy'
   #push:
   #  branches: ["tf-modules"]
 
